@@ -1,0 +1,23 @@
+1. Impor database:
+   - Buka http://localhost/phpmyadmin
+   - Klik tab "Import", pilih file db_kasir.sql, klik "Go"
+   (Database db_kasir terbentuk lengkap dengan akun login)
+
+2. Jalankan aplikasi:
+   - Buka folder kasir di VSCode
+   - Tekan Ctrl + J untuk membuka terminal
+   - Ketik: php -S localhost:8000
+   - Buka http://localhost:8000/kasir/index.php
+
+3. Login dengan akun bawaan:
+   - Username : admin
+   - Password : 123456
+
+4. Alur pakai singkat:
+   - Barang      : isi dulu data barang + foto (upload dari komputer)
+   - Pemasukan   : catat penjualan (otomatis mengurangi stok)
+   - Pengeluaran : catat biaya (listrik, sewa, dll)
+   - Closingan   : pilih tanggal, isi hasil hitung stok fisik,
+     sistem menghitung selisih & omzet hari itu.
+
+5. Folder uploads/ dipakai menyimpan foto barang yang di-upload.
